@@ -1,0 +1,6 @@
+local,repo
+~/.bashrc,.bashrc
+~/.bash_aliases,.bash_aliases
+~/.bash_login,.bash_login
+~/.bash_logout,.bash_logout
+~/.gitconfig,.gitconfig

@@ -1,0 +1,26 @@
+[user]
+    name = r.zach.lamberty
+    email = r.zach.lamberty@gmail.com
+[color]
+    diff = auto
+    color = auto
+    branch = auto
+    interactive = auto
+    ui = auto
+[core]
+    editor = emacs -nw
+[alias]
+    st = status -sb
+    ci = commit
+    br = branch
+    co = checkout
+    df = diff
+    lg = log -p
+    dt = difftool
+    hist = log --color --pretty=format:\"%C(bold blue)%h %C(reset)- %C(bold green)(%ad)%C(reset) %C(bold white)%s%C(reset) %C(white)- %an%C(reset)%C(bold yellow)%d%C(reset)\" --relative-date --decorate
+    graph-v = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(bold white)%s%C(reset) %C(white)- %an%C(reset)'
+    graph = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(bold white)%s%C(reset) - %C(red)%an%C(reset)%C(bold yellow)%d%C(reset)' --all
+    gr = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(bold white)%s%C(reset) - %C(red)%an%C(reset)%C(bold yellow)%d%C(reset)' --all
+    unstage = reset HEAD --
+[push]
+	default = simple
