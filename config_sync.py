@@ -117,7 +117,7 @@ def parse_args():
 if __name__ == '__main__':
     args = parse_args()
 
-    if args.cp and args.u:
+    if args.copy and args.update:
         raise ValueError("copy OR update, but not both")
 
     configs = load_configs(args.fconfig)
